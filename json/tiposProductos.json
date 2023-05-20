@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "nombre": "Cuentas",
+      "disponible": "(Próximamente)"
+    },
+    {
+      "id": 2,
+      "nombre": "Tarjetas de Crédito",
+      "disponible": "(Próximamente)"
+    },
+    {
+      "id": 3,
+      "nombre": "Préstamos",
+      "disponible": "<a class=\"text-decoration-none btn btn-outline-info\" href=\"pages/prestamo.html\">Consultar</a>"
+    },
+    {
+      "id": 4,
+      "nombre": "Seguros",
+      "disponible": "(Próximamente)"
+    }
+  ]
+  

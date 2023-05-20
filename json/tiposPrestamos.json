@@ -1,0 +1,47 @@
+[
+    {
+      "id": 1,
+      "nombre": "Préstamo Jóven",
+      "edadMinima": 18,
+      "edadMaxima": 35,
+      "montoMinimo": 1,
+      "montoMaxino": 1500000,
+      "garantia": "No",
+      "tipoGarantia": "N/A",
+      "tasa": 0.50,
+      "seguro": 0.01,
+      "iva": 0.21,
+      "cuotasMinimo": 1,
+      "cuotasMaximo": 12
+    },
+    {
+      "id": 2,
+      "nombre": "Préstamo Garantizado",
+      "edadMinima": 18,
+      "edadMaxima": 64,
+      "montoMinimo": 1,
+      "montoMaxino": 4500000,
+      "garantia": "Si",
+      "tipoGarantia": "A solo firma",
+      "tasa": 0.70,
+      "seguro": 0.015,
+      "iva": 0.21,
+      "cuotasMinimo": 4,
+      "cuotasMaximo": 18
+    },
+    {
+      "id": 3,
+      "nombre": "Préstamo Jubliado",
+      "edadMinima": 65,
+      "edadMaxima": 100,
+      "montoMinimo": 1,
+      "montoMaxino": 2500000,
+      "garantia": "No",
+      "tipoGarantia": "N/A",
+      "tasa": 0.60,
+      "seguro": 0.01,
+      "iva": 0.21,
+      "cuotasMinimo": 1,
+      "cuotasMaximo": 12
+    }
+  ]

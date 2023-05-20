@@ -1,0 +1,68 @@
+/* reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+
+/* ESTILOS GENERALES */
+/* estilos body */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #F5F5DC;
+}
+
+/* estilos body-grid */
+.body-grid {
+    color: #4d4d4d;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 0.3fr 3.3fr 0.5fr;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+/* estilos header */
+header {
+    grid-area: header;
+}
+
+.header-card {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+/* estilos main */
+main {
+    grid-area: main;
+}
+
+.cardProductos {
+    width: 18rem;
+    height: 7.5rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* estilos footer */
+.footer {
+    grid-area: footer;
+    padding: 1.5rem;
+    text-align: center;
+    font-style: italic;
+}
+
+/* ESTILOS PARTICULARES */
+/* estilos Home */
+
+.font {
+    font-size: 0.8rem;
+}
+
+.cardDolar {
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
